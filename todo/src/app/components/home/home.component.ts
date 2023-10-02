@@ -1,43 +1,34 @@
-import { Component } from '@angular/core';
-
+import { Component, OnInit } from '@angular/core';
+import { TodoList } from 'src/app/models/todo-list.model';
+import { TodoService } from 'src/app/services/todo/todo.service';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
-export class HomeComponent {
+export class HomeComponent implements OnInit {
 
-  todoList = [{
-    title: 'Do My Video',
-    dueDate: '23/06/2023',
-    completed: false,
-    favourite: false
-  }, {
-    title: 'Se laver',
-    dueDate: '10/06/2023',
-    completed: true,
-    favourite: false
-  }, {
-    title: 'Manger',
-    dueDate: '23/06/2023',
-    completed: false,
-    favourite: false
-  }, {
-    title: 'Se doucher',
-    dueDate: '10/06/2023',
-    completed: true,
-    favourite: false
-  }, {
-    title: 'Se lever',
-    dueDate: '23/06/2023',
-    completed: false,
-    favourite: false
-  }, {
-    title: 'Se lecher',
-    dueDate: '10/06/2023',
-    completed: true,
-    favourite: false
-  }, ];
+  todoListsArray: TodoList[] = [];
+  selectedTodoList!: TodoList;
+
+  constructor(
+    private todoService: TodoService
+  ) { }
+
+  ngOnInit(): void {
+    this.todoListsArray = this.todoService.getTodoLists();
+    this.selectedTodoList = this.todoListsArray[0];
+  }
+
+  selectTodoList(todoList: TodoList) {
+    this.selectedTodoList = todoList;
+  }
+
+  onListAdded() {
+    if (this.todoListsArray.length === 1) {
+      this.selectedTodoList = this.todoListsArray[0];
+    }
+  }
 
 }

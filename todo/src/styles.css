@@ -2,3 +2,23 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.wite .mat-form-field-underline {
+    background-color: lightgrey;
+}
+
+.wite .mat-form-field-label {
+    color: lightgrey;
+}
+
+.wite.mat-focused .mat-form-field-underline {
+    background-color: white;
+}
+
+.wite.mat-focused .mat-form-field-label {
+    color: white;
+}
+
+.wite input.mat-input-element {
+    color: white;
+}
