@@ -5,19 +5,22 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
-import { NotFoundComponent } from './not-found/not-found.component';
-import { HomeComponent } from './home/home.component';
+import { NotFoundComponent } from './app/components/not-found/not-found.component';
+import { HomeComponent } from './app/components/home/home.component';
 import { FormsModule } from '@angular/forms';
-import { ListItemComponent } from './list-item/list-item.component';
+import { ListItemComponent } from './components/list-item/list-item.component';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatIconModule } from '@angular/material/icon';
+import { TodoListComponent } from './components/todo-list/todo-list.component';
+import { MatSidenavModule } from '@angular/material/sidenav';
 
 @NgModule({
   declarations: [
     AppComponent,
     NotFoundComponent,
     HomeComponent,
-    ListItemComponent
+    ListItemComponent,
+    TodoListComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +29,8 @@ import { MatIconModule } from '@angular/material/icon';
     MatButtonModule,
     FormsModule,
     MatCheckboxModule,
-    MatIconModule
+    MatIconModule,
+    MatSidenavModule
   ],
   providers: [],
   bootstrap: [AppComponent]
