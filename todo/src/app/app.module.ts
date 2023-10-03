@@ -16,6 +16,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { NewListInputComponent } from './components/new-list-input/new-list-input.component';
 import { NewTodoInputComponent } from './components/new-todo-input/new-todo-input.component';
 import { MatInputModule } from '@angular/material/input';
+import { InscriptionComponent } from './components/inscription/inscription.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { MatInputModule } from '@angular/material/input';
     TodoListComponent,
     NewListInputComponent,
     NewTodoInputComponent,
+    InscriptionComponent,
   ],
   imports: [
     BrowserModule,
