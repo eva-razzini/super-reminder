@@ -10,6 +10,7 @@ export class ListItemComponent {
 
   @Input()
   listItem: any;
+  
   toggleFavourite() {
     this.listItem.favourite = !this.listItem.favourite;
   }

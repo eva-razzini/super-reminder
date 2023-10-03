@@ -3,12 +3,12 @@ mat-drawer-container {
 }
 
 mat-drawer {
-    background-color: rgb(139, 40, 48);
+    background-color: #4a4a4a;
     width: 250px;
 }
 
 mat-drawer-content {
-    background-color: rgb(51, 48, 48);
+    background-image: url(../../../assets/crown-4rohoS8aLlQ-unsplash.png);
 }
 
 #list-title {
@@ -37,7 +37,7 @@ mat-drawer-content {
 }
 
 #lists button.selected {
-    background-color: rgb(206, 56, 56);
+    background-color: rgba(139, 40, 48, 0.651);
 }
 
 .container {

@@ -4,13 +4,13 @@
 
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    border-bottom-color: black;
+    border-bottom-color: rgb(185, 181, 181);
     
     padding: 10px;
     
 }
 .container:hover {
-    background-color: rgb(139, 40, 48);
+    background-color: rgba(139, 40, 48, 0.651);
     cursor: pointer;
 }
 
@@ -36,5 +36,10 @@
 
 #list-item-content .due-date{
     font-size: x-small;
-    color: gray;
+    color: rgb(240, 187, 213);
+    
+}
+
+.container {
+   background-color: rgba(0, 0, 0, 0.61); 
 }
