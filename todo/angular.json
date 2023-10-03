@@ -25,7 +25,11 @@
               "src/assets"
             ],
             "styles": [
+<<<<<<< HEAD:todo/angular.json
               "@angular/material/prebuilt-themes/pink-bluegrey.css",
+=======
+              "@angular/material/prebuilt-themes/indigo-pink.css",
+>>>>>>> 4ef694dbd911bd3da1610e6b53a4fae8e4a6b956:angular.json
               "src/styles.css"
             ],
             "scripts": []
@@ -88,7 +92,11 @@
               "src/assets"
             ],
             "styles": [
+<<<<<<< HEAD:todo/angular.json
               "@angular/material/prebuilt-themes/pink-bluegrey.css",
+=======
+              "@angular/material/prebuilt-themes/indigo-pink.css",
+>>>>>>> 4ef694dbd911bd3da1610e6b53a4fae8e4a6b956:angular.json
               "src/styles.css"
             ],
             "scripts": []
@@ -98,6 +106,10 @@
     }
   },
   "cli": {
+<<<<<<< HEAD:todo/angular.json
     "analytics": "c12c2375-8faa-4b48-8137-0341534ebf6c"
+=======
+    "analytics": false
+>>>>>>> 4ef694dbd911bd3da1610e6b53a4fae8e4a6b956:angular.json
   }
 }

@@ -11,14 +11,22 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "^16.2.0",
+<<<<<<< HEAD:todo/package.json
     "@angular/cdk": "^16.2.6",
+=======
+    "@angular/cdk": "^16.2.5",
+>>>>>>> 4ef694dbd911bd3da1610e6b53a4fae8e4a6b956:package.json
     "@angular/common": "^16.2.0",
     "@angular/compiler": "^16.2.0",
     "@angular/core": "^16.2.0",
     "@angular/forms": "^16.2.0",
+<<<<<<< HEAD:todo/package.json
     "@angular/material": "^16.2.6",
+=======
+    "@angular/material": "^16.2.5",
+>>>>>>> 4ef694dbd911bd3da1610e6b53a4fae8e4a6b956:package.json
     "@angular/platform-browser": "^16.2.0",
-    "@angular/platform-browser-dynamic": "^16.2.0",
+    "@angular/platform-browser-dynamic": "^16.2.6",
     "@angular/router": "^16.2.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
